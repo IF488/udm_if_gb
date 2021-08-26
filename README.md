@@ -9,8 +9,8 @@ Pour installer ce noeud il faut le cloner dans le dossier src de votre catkin wo
 ```
 cd catkin_ws/src
 git clone https://github.com/IF488/udm_if_gb.git
-catkin build
 cd ..
+catkin_make
 source devel/setup.bash
 ```
 
