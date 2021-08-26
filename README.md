@@ -22,7 +22,6 @@ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 Dans un deuxième terminal, lancer le noeud de navigation:
-PS: La map utilisé est fourni dans le fichier. Placer map.yaml et map.pgm dans le fichier HOME de votre PC. Vous pouvez aussi placer la map dans un autre fichier à condition de changer l'argument dans la command ci-dessous.
 
 ```
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
@@ -33,3 +32,5 @@ Dans un troisième terminal, lancer le noeud global_localization.py
 ```
 rosrun udm_ishan_gb global_localization.py
 ```
+
+PS: La map utilisé est fourni dans le fichier. Placer map.yaml et map.pgm dans le fichier HOME de votre PC. Vous pouvez aussi placer la map dans un autre fichier à condition de changer l'argument dans la command ci-dessous.
